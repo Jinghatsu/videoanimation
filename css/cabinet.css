@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+
+body {
+    background-color: #0F121D;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.mine {
+    background-color: #0F121D;
+    min-height: 291px;
+}
+
+.zagolovok h1 {
+    margin-top: 70px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 140%;
+}
+
+.subzagolovok {
+    margin-top: 70px;
+}
+
+.subzagolovok h2 {
+    margin-top: 1em;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 140%;
+    color: rgba(255,255,255,0.7);
+}
+
+.subzagolovok p {
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 140%;
+}
+
+footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 20px;
+    margin-top: 200px;
+}
+
+.footer h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+}
+
+.footer p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.7);
+}
+.address p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: white;
+    letter-spacing: 0.1em;
+}
+
+.last {
+    margin-top: 60px;
+}
+
+.icons img {
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.latest p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+
+@media (max-width: 576px) {
+    .zagolovok h1 {
+      font-size: 30px;
+    }
+    .lilcont h1 {
+        font-size: 16px;
+    }
+    .subzagolovok h2 {
+        font-size: 20px;
+    }
+    .subzagolovok p {
+        font-size: 16px;
+    }
+    .footer h1 {
+        font-size: 18px;
+    }
+    footer p {
+        font-size: 16px;
+    }
+    .latest p {
+        font-size: 14px;
+    }
+  }
+
+  header.mast_head {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("../assets/img/La4DLca_QOg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    filter: drop-shadow(0 0 0.75rem rgb(15, 32, 128));
+  }
+
+  .mast_head h1, h3 {
+    filter: drop-shadow(0 0 0.75rem rgb(109, 9, 172));
+  }
+  header.mast_head p {
+    font-size: 1.5rem;
+  }
+  header.mast_head .mast_head-subheading {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  header.mast_head .mast_head-heading {
+    font-size: 2.75rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  
+  @media (min-width: 768px) {
+    header.mast_head {
+      padding-top: 17rem;
+      padding-bottom: 12.5rem;
+    }
+    header.mast_head .mast_head-subheading {
+      font-size: 1.75rem;
+      line-height: 2.25rem;
+      margin-bottom: 2rem;
+      font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+    header.mast_head .mast_head-heading {
+      font-size: 3.5rem;
+      font-weight: 700;
+      line-height: 4.5rem;
+      margin-bottom: 4rem;
+    }
+    header.mast_head h3{
+        font-size: 3.25rem;
+        font-weight: 700;
+        line-height: 4.5rem;
+        margin-bottom: 4rem;
+      }
+      header.mast_head h1{
+        font-size: 3.5rem;
+      }
+  }

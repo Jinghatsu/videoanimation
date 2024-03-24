@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+
+html,
+body {
+  height: 100%;
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #0F121D;
+  color: white;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 530px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin h1 {
+  font-size: 32px;
+  font-weight: 500;
+}
+.form-signin label {
+  color: black;
+}
+
+.form-signin img {
+  mix-blend-mode: lighten;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin button {
+  border: none;
+  background-color: rgba(65, 105, 225, 0.6);
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.lilcont a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+.lilcont h2 {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 1em;
+}
+ .lilcont a:hover {
+  color: rgba(65, 105, 225, 0.6);
+  transition: opacity 0.3s linear;
+ }

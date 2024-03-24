@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+
+body {
+    background-color: #0F121D;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.mine {
+    background-color: #0F121D;
+    min-height: 291px;
+}
+.lilcont {
+    display: flex;
+}
+
+.lilcont img {
+    margin-top: 30px;
+}
+
+.lilcont h1 {
+    margin-top: 25px;
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.zagolovok h1 {
+    margin-top: 70px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 140%;
+}
+
+.subzagolovok {
+    margin-top: 70px;
+}
+
+.subzagolovok h2 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 140%;
+    color: rgba(255,255,255,0.7);
+}
+
+.subzagolovok p {
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 140%;
+}
+
+footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 20px;
+    margin-top: 200px;
+}
+
+.footer h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+}
+
+.footer p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.7);
+}
+.address p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: white;
+    letter-spacing: 0.1em;
+}
+
+.last {
+    margin-top: 60px;
+}
+
+.icons img {
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.latest p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+
+@media (max-width: 576px) {
+    .zagolovok h1 {
+      font-size: 30px;
+    }
+    .lilcont h1 {
+        font-size: 16px;
+    }
+    .subzagolovok h2 {
+        font-size: 20px;
+    }
+    .subzagolovok p {
+        font-size: 16px;
+    }
+    .footer h1 {
+        font-size: 18px;
+    }
+    footer p {
+        font-size: 16px;
+    }
+    .latest p {
+        font-size: 14px;
+    }
+  }
